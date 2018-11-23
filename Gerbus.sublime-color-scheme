@@ -1,0 +1,135 @@
+{
+    "name": "Color Scheme - Gerbus",
+    "variables":
+    {
+        "lightBlue": "#aed7f8",
+        "lightGrape": "#aeb1f8",
+        "darkGrape": "#757bd8",
+        "darkOrchid": "#b57bd8",
+        "orchid": "#e064d4",
+        "fuchsia": "#8f938f",
+        "iceBlue": "#00ccff",
+        "seaGreen": "#00bb66",
+        "mossGreen": "#66a969",
+        "red": "#f00",
+        "darkOrange": "#df8040",
+        "orange": "#dfb141",
+        "yellow": "#FFDF00",
+        "darkGrey": "#332f2e",
+        "mediumGrey": "#4f5052",
+        "darkRust": "#9f736f",
+        "grey": "#8f939f"
+    },
+    "globals":
+    {
+        "background": "#2C2827",
+        "foreground": "var(grey)",
+        "caret": "white",
+        "selection": "var(mediumGrey)",
+        "lineHighlight": "var(darkGrey)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(darkRust)",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string.quoted",
+            "foreground": "var(mossGreen)",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#fff",
+        },
+        {
+            "name": "Function Definitions (and Tags)",
+            "scope": "entity.name",
+            "foreground": "var(orange)",
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(orchid)",
+        },
+        {
+            "name": "Tags",
+            "scope": "entity.name.tag",
+            "foreground": "var(iceBlue)",
+        },
+        {
+            "name": "Tag attributes",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(seaGreen)",
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(darkGrape)",
+        },
+        {
+            "name": "This",
+            "scope": "variable.language",
+            "foreground": "var(darkOrchid)",
+        },
+        {
+            "name": "Parameters",
+            "scope": "variable.parameter",
+            "foreground": "var(darkGrape)",
+        },
+        {
+            "name": "Functions",
+            "scope": "variable.function",
+            "foreground": "var(darkOrange)",
+        },
+        {
+            "name": "Variable types and arrows",
+            "scope": "storage.type",
+            "foreground": "var(lightGrape)",
+        },
+        {
+            "name": "Import, return, math operators, loop keywords",
+            "scope": "keyword",
+            "foreground": "var(lightGrape)",
+        },
+        {
+            "name": "Equals",
+            "scope": "keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.bitwise",
+            "foreground": "var(grey)",
+        },
+        {
+            "name": "Markup code",
+            "scope": "markup.raw",
+            "foreground": "var(darkGrape)",
+        },
+        {
+            "name": "Markup links",
+            "scope": "markup.underline.link",
+            "foreground": "var(iceBlue)",
+        },
+        {
+            "name": "",
+            "scope": "invalid.illegal",
+            "foreground": "var(red)",
+        },
+        {
+            "name": "",
+            "scope": "",
+            "foreground": "var()",
+        },
+        {
+            "name": "",
+            "scope": "",
+            "foreground": "var()",
+        },
+        {
+            "name": "",
+            "scope": "",
+            "foreground": "var()",
+        }
+    ]
+}
