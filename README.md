@@ -1,6 +1,6 @@
 # Gerbus for [Sublime Text](http://sublimetext.com)
 
-> A dark theme for [Sublime Text](http://sublimetext.com).
+> A stimulating but fulfilling psychedelic-come-down theme for [Sublime Text](http://sublimetext.com).
 
 ## Description
 Based on the ***Pastel On Dark*** color scheme from *codeanywhere.com* . 
