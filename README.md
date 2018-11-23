@@ -8,7 +8,7 @@ Tested primarily using React.
 ### Features
 * sets a cool and soothing general visual context
 * visually pulls out function names and class names
-* visually separates js (purple/orange) from jsx (blue/green)
+* visually separates `js` (purple/orange) from `jsx` (blue/green)
 
 ![Screenshot](https://github.com/gerbus/sublime-color-scheme/raw/master/sample.png)
 
