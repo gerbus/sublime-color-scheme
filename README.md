@@ -2,10 +2,10 @@
 
 > A dark theme for [Sublime Text](http://sublimetext.com).
 
-![Screenshot](https://github.com/gerbus/sublime/raw/master/sample.png)
+![Screenshot](https://github.com/gerbus/sublime-color-scheme/raw/master/sample.png)
 
 ## Installation
-1. Download [Gerbus.sublime-color-scheme](https://raw.githubusercontent.com/gerbus/sublime/master/Gerbus.sublime-color-scheme) to ~/Library/Application Support/Sublime Text 3/Packages/Themes (select Preferences > Browse Packages... in Sublime and then add Themes folder if none exists)
+1. Download [Gerbus.sublime-color-scheme](https://raw.githubusercontent.com/gerbus/sublime-color-scheme/master/Gerbus.sublime-color-scheme) to ~/Library/Application Support/Sublime Text 3/Packages/Themes (select Preferences > Browse Packages... in Sublime and then add Themes folder if none exists)
 2. In Sublime, go Preferences > Color Scheme...
 3. Select Gerbus
 
