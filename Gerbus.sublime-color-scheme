@@ -5,19 +5,24 @@
         "lightBlue": "#aed7f8",
         "lightGrape": "#aeb1f8",
         "darkGrape": "#757bd8",
-        "darkOrchid": "#b57bd8",
-        "orchid": "#e064d4",
+        "darkOrchid": "#d57bd8",
+        "orchid": "#f064d4",
         "fuchsia": "#8f938f",
         "iceBlue": "#00ccff",
+        "skyBlue": "#0088ff",
+        "darkCyan": "#05a",
         "seaGreen": "#00bb66",
         "mossGreen": "#66a969",
+        "subGreen": "#086",
         "red": "#f00",
+        "darkRed": "#a00",
         "darkOrange": "#df8040",
+        "brown": "#c64",
         "orange": "#dfb141",
         "yellow": "#FFDF00",
         "darkGrey": "#332f2e",
         "mediumGrey": "#4f5052",
-        "darkRust": "#9f736f",
+        "rust": "#9f736f",
         "grey": "#8f939f"
     },
     "globals":
@@ -33,13 +38,13 @@
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "var(darkRust)",
+            "foreground": "var(rust)",
             "font_style": "italic"
         },
         {
             "name": "String",
             "scope": "string.quoted",
-            "foreground": "var(mossGreen)",
+            "foreground": "var(subGreen)",
         },
         {
             "name": "Number",
@@ -64,7 +69,7 @@
         {
             "name": "Tag attributes",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(seaGreen)",
+            "foreground": "var(skyBlue)",
         },
         {
             "name": "Variable",
@@ -84,7 +89,7 @@
         {
             "name": "Functions",
             "scope": "variable.function",
-            "foreground": "var(darkOrange)",
+            "foreground": "var(brown)",
         },
         {
             "name": "Variable types and arrows",
@@ -112,19 +117,19 @@
             "foreground": "var(iceBlue)",
         },
         {
-            "name": "",
+            "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "foreground": "var(red)",
+            "foreground": "var(rust)",
         },
         {
-            "name": "",
-            "scope": "",
-            "foreground": "var()",
+            "name": "Linter warning",
+            "scope": "markup.warning",
+            "foreground": "var(darkCyan)",
         },
         {
-            "name": "",
-            "scope": "",
-            "foreground": "var()",
+            "name": "Linter error",
+            "scope": "markup.error",
+            "foreground": "var(darkRed)",
         },
         {
             "name": "",
