@@ -2,39 +2,133 @@
     "name": "Color Scheme - Gerbus",
     "variables":
     {
+        "rust": "#9f736f",
+        "red": "#f00",
+        "sunsetRed": "#f66",
+        "darkRed": "#800",
+        "bloodOrange": "#ff6000",
+        "orange": "#df8040",
+        "brown": "#c64",
+        "darkYellow": "#dfb141",
+        "yellow": "#FFDF00",
+
+        "seaGreen": "#00bb66",
+        "mossGreen": "#66a969",
+        "subGreen": "#008878",
         "lightBlue": "#aed7f8",
-        "lightGrape": "#aeb1f8",
-        "darkGrape": "#757bd8",
-        "darkOrchid": "#d57bd8",
-        "orchid": "#f064d4",
-        "fuchsia": "#8f938f",
+        "brilliantBlue": "#00ffff",
         "iceBlue": "#00ccff",
         "skyBlue": "#0088ff",
         "darkCyan": "#05a",
-        "seaGreen": "#00bb66",
-        "mossGreen": "#66a969",
-        "subGreen": "#086",
-        "red": "#f00",
-        "darkRed": "#a00",
-        "darkOrange": "#df8040",
-        "brown": "#c64",
-        "orange": "#dfb141",
-        "yellow": "#FFDF00",
+        "lightGrape": "#9ea1e8",
+        "darkGrape": "#757bd8",
+        "darkOrchid": "#d57bc8",
+        "orchid": "#f064d4",
+        "sunsetPink": "#f68",
+        "fuchsia": "#8f938f",
+
         "darkGrey": "#332f2e",
         "mediumGrey": "#4f5052",
-        "rust": "#9f736f",
         "grey": "#8f939f"
     },
     "globals":
     {
-        "background": "#2C2827",
+        "background": "#000000",
         "foreground": "var(grey)",
         "caret": "white",
         "selection": "var(mediumGrey)",
-        "lineHighlight": "var(darkGrey)"
+        "lineHighlight": "var(darkGrey)",
+        "misspelling": "var(rust)",
+        "fold_marker": "#fff",
+        "brackets_options": "bold underline",
+        "bracket_contents_options": "bold underline",
+        "brackets_foreground": "var(sunsetPink)",
+        "bracket_contents_foreground": "var(sunsetPink)",
+        "tags_options": "bold underline",
+        "tags_foreground": "var(brilliantBlue)"
     },
     "rules":
     [
+
+
+
+
+        {
+            "name": "Import, return, math operators, loop keywords",
+            "scope": "keyword",
+            "foreground": "var(lightGrape)",
+        },
+        {
+            "name": "Variable types and arrows",
+            "scope": "storage.type",
+            "foreground": "var(lightGrape)",
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(darkGrape)",
+        },
+        {
+            "name": "Parameters",
+            "scope": "variable.parameter",
+            "foreground": "var(darkGrape)",
+        },
+
+
+
+
+        {
+            "name": "Function Definitions (and Tags)",
+            "scope": "entity.name",
+            "foreground": "var(darkYellow)",
+        },
+        {
+            "name": "Functions",
+            "scope": "variable.function",
+            "foreground": "var(darkOrchid)",
+        },
+
+
+
+
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(bloodOrange)",
+        },
+        {
+            "name": "This",
+            "scope": "variable.language",
+            "foreground": "var(orange)",
+        },
+
+
+
+
+        {
+            "name": "Tags",
+            "scope": "entity.name.tag",
+            "foreground": "var(iceBlue)",
+        },
+        {
+            "name": "Tag attributes",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(skyBlue)",
+        },
+        {
+            "name": "Markup code",
+            "scope": "markup.raw",
+            "foreground": "var(darkGrape)",
+        },
+        {
+            "name": "Markup links",
+            "scope": "markup.underline.link",
+            "foreground": "var(iceBlue)",
+        },
+
+
+
+
         {
             "name": "Comment",
             "scope": "comment",
@@ -49,73 +143,17 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "#fff",
-        },
-        {
-            "name": "Function Definitions (and Tags)",
-            "scope": "entity.name",
-            "foreground": "var(orange)",
-        },
-        {
-            "name": "Class name",
-            "scope": "entity.name.class",
-            "foreground": "var(orchid)",
-        },
-        {
-            "name": "Tags",
-            "scope": "entity.name.tag",
-            "foreground": "var(iceBlue)",
-        },
-        {
-            "name": "Tag attributes",
-            "scope": "entity.other.attribute-name",
-            "foreground": "var(skyBlue)",
-        },
-        {
-            "name": "Variable",
-            "scope": "variable",
-            "foreground": "var(darkGrape)",
-        },
-        {
-            "name": "This",
-            "scope": "variable.language",
-            "foreground": "var(darkOrchid)",
-        },
-        {
-            "name": "Parameters",
-            "scope": "variable.parameter",
-            "foreground": "var(darkGrape)",
-        },
-        {
-            "name": "Functions",
-            "scope": "variable.function",
-            "foreground": "var(brown)",
-        },
-        {
-            "name": "Variable types and arrows",
-            "scope": "storage.type",
-            "foreground": "var(lightGrape)",
-        },
-        {
-            "name": "Import, return, math operators, loop keywords",
-            "scope": "keyword",
-            "foreground": "var(lightGrape)",
+            "foreground": "#ccc",
         },
         {
             "name": "Equals",
             "scope": "keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.bitwise",
             "foreground": "var(grey)",
         },
-        {
-            "name": "Markup code",
-            "scope": "markup.raw",
-            "foreground": "var(darkGrape)",
-        },
-        {
-            "name": "Markup links",
-            "scope": "markup.underline.link",
-            "foreground": "var(iceBlue)",
-        },
+
+
+
+
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
@@ -131,6 +169,10 @@
             "scope": "markup.error",
             "foreground": "var(darkRed)",
         },
+
+
+
+
         {
             "name": "",
             "scope": "",
